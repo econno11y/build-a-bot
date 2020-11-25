@@ -4,7 +4,7 @@
       <img class="robot" src="../assets/robot-home.png" aria-hidden="true" />
     </div>
     <div class="get-started">
-      <a href="">Get started</a> building your first robot!
+      <router-link to="/build">Get started</router-link> building your first robot!
     </div>
   </div>
 </template>
@@ -22,6 +22,8 @@ export default {
 <style scoped>
 .home {
   text-align: center;
+  background-image: linear-gradient(319deg, #ff1493 0%, #0000ff 37%, #ff8c00 100%);
+
 }
 .robot {
   height: 300px;
